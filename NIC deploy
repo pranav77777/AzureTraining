@@ -1,0 +1,42 @@
+{
+    "name": "myVNet",
+    "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/NIC-Trial/providers/Microsoft.Network/networkInterfaces/myVNet",
+    "etag": "W/\"5cc42d3a-34d1-4632-8916-1ef5e0d909c4\"",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "37a6227b-8a13-4081-a859-376881a422a5",
+        "ipConfigurations": [
+            {
+                "name": "Ipv4config",
+                "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/NIC-Trial/providers/Microsoft.Network/networkInterfaces/myVNet/ipConfigurations/Ipv4config",
+                "etag": "W/\"5cc42d3a-34d1-4632-8916-1ef5e0d909c4\"",
+                "type": "Microsoft.Network/networkInterfaces/ipConfigurations",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "privateIPAddress": "10.0.0.4",
+                    "privateIPAllocationMethod": "Dynamic",
+                    "subnet": {
+                        "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/NIC-Trial/providers/Microsoft.Network/virtualNetworks/VirtualNetwork/subnets/default"
+                    },
+                    "primary": true,
+                    "privateIPAddressVersion": "IPv4"
+                }
+            }
+        ],
+        "dnsSettings": {
+            "dnsServers": [],
+            "appliedDnsServers": [],
+            "internalDomainNameSuffix": "g01uqxrx4aae1ll4s00mcsmgud.bx.internal.cloudapp.net"
+        },
+        "enableAcceleratedNetworking": false,
+        "vnetEncryptionSupported": false,
+        "enableIPForwarding": false,
+        "hostedWorkloads": [],
+        "tapConfigurations": [],
+        "nicType": "Standard"
+    },
+    "type": "Microsoft.Network/networkInterfaces",
+    "location": "eastus",
+    "kind": "Regular"
+}
