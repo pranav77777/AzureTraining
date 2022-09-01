@@ -1,0 +1,34 @@
+{
+    "name": "VirtualNetwork",
+    "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/NIC-Trial/providers/Microsoft.Network/virtualNetworks/VirtualNetwork",
+    "etag": "W/\"7de1490e-8243-4e6a-ba5c-83d202a9a474\"",
+    "type": "Microsoft.Network/virtualNetworks",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "5e48b736-f037-4d00-ad7e-96b4c14986a3",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.0.0.0/16"
+            ]
+        },
+        "subnets": [
+            {
+                "name": "default",
+                "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/NIC-Trial/providers/Microsoft.Network/virtualNetworks/VirtualNetwork/subnets/default",
+                "etag": "W/\"7de1490e-8243-4e6a-ba5c-83d202a9a474\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefix": "10.0.0.0/24",
+                    "ipConfigurations": [
+                        {
+                            "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/NIC-Trial/providers/Microsoft.Network/networkInterfaces/myVNet/ipConfigurations/Ipv4config"
+                        }
+                    ]
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ]
+    }
+}
