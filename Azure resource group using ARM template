@@ -1,0 +1,9 @@
+{
+    "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/Template-Training",
+    "name": "Template-Training",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}
