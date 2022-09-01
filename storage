@@ -1,0 +1,50 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourceGroups/Template-Training/providers/Microsoft.Storage/storageAccounts/trail1iscgpkxh3csfs",
+    "name": "trail1iscgpkxh3csfs",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {
+        "Environment": "Dev",
+        "Project": "Tutorial"
+    },
+    "properties": {
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-09-01T14:50:38.6913417Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-09-01T14:50:38.6913417Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-09-01T14:50:37.0663853Z",
+        "primaryEndpoints": {
+            "dfs": "https://trail1iscgpkxh3csfs.dfs.core.windows.net/",
+            "web": "https://trail1iscgpkxh3csfs.z13.web.core.windows.net/",
+            "blob": "https://trail1iscgpkxh3csfs.blob.core.windows.net/",
+            "queue": "https://trail1iscgpkxh3csfs.queue.core.windows.net/",
+            "table": "https://trail1iscgpkxh3csfs.table.core.windows.net/",
+            "file": "https://trail1iscgpkxh3csfs.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available"
+    }
+}
