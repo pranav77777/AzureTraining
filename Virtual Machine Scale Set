@@ -1,0 +1,86 @@
+{
+    "authorization": {
+        "action": "Microsoft.Compute/virtualMachineScaleSets/write",
+        "scope": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourcegroups/VM-SS/providers/Microsoft.Compute/virtualMachineScaleSets/vmss-demo"
+    },
+    "caller": "pranavdabhade89@gmail.com",
+    "channels": "Operation",
+    "claims": {
+        "aud": "https://management.core.windows.net/",
+        "iss": "https://sts.windows.net/c2793115-b0bd-4aac-ae16-95c3fdd95dc0/",
+        "iat": "1662714723",
+        "nbf": "1662714723",
+        "exp": "1662720273",
+        "http://schemas.microsoft.com/claims/authnclassreference": "1",
+        "aio": "AWQAm/8TAAAAiLUWDR/XM4rQaafY0LQwStYnUr0FeyyedqLJfT9aFup93x807MpTrD0tLYd+iz5aPs8OmiHIQ8n85qEhtmEnLfkCC/tKslmPs++OF+acDedxlPIvzlhUY3ySPf7Lp8hl",
+        "altsecid": "1:live.com:0003BFFDCE8BAECD",
+        "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+        "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+        "appidacr": "2",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "pranavdabhade89@gmail.com",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "dabhade",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "pranav",
+        "groups": "95802b0c-844a-4755-9253-01b86994b00c",
+        "http://schemas.microsoft.com/identity/claims/identityprovider": "live.com",
+        "ipaddr": "116.75.164.124",
+        "name": "pranav dabhade",
+        "http://schemas.microsoft.com/identity/claims/objectidentifier": "276d12d1-0faf-43c0-940f-ec46508e204b",
+        "puid": "10032000B646565E",
+        "rh": "0.AWQAFTF5wr2wrEquFpXD_dldwEZIf3kAutdPukPawfj2MBOOALc.",
+        "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "aVu2BGJWe11h3wYSLiopD2Ibgk5p-_zJm0jNHkrVOM8",
+        "http://schemas.microsoft.com/identity/claims/tenantid": "c2793115-b0bd-4aac-ae16-95c3fdd95dc0",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "live.com#pranavdabhade89@gmail.com",
+        "uti": "B5sdux51CEygBvOf9tw0AQ",
+        "ver": "1.0",
+        "wids": "62e90394-69f5-4237-9190-012177145e10",
+        "xms_tcdt": "1587630854"
+    },
+    "correlationId": "498232d3-f5dc-48fa-b7fa-7ae3504e2333",
+    "description": "",
+    "eventDataId": "01827dae-e12e-489c-a903-16eeabb0250c",
+    "eventName": {
+        "value": "EndRequest",
+        "localizedValue": "End request"
+    },
+    "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+    },
+    "eventTimestamp": "2022-09-09T09:40:46.8212262Z",
+    "id": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourcegroups/VM-SS/providers/Microsoft.Compute/virtualMachineScaleSets/vmss-demo/events/01827dae-e12e-489c-a903-16eeabb0250c/ticks/637983132468212262",
+    "level": "Informational",
+    "operationId": "141cf9fa-39ca-489a-924f-3f76299e6eb9",
+    "operationName": {
+        "value": "Microsoft.Compute/virtualMachineScaleSets/write",
+        "localizedValue": "Create or Update Virtual Machine Scale Set"
+    },
+    "resourceGroupName": "VM-SS",
+    "resourceProviderName": {
+        "value": "Microsoft.Compute",
+        "localizedValue": "Microsoft.Compute"
+    },
+    "resourceType": {
+        "value": "Microsoft.Compute/virtualMachineScaleSets",
+        "localizedValue": "Microsoft.Compute/virtualMachineScaleSets"
+    },
+    "resourceId": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourcegroups/VM-SS/providers/Microsoft.Compute/virtualMachineScaleSets/vmss-demo",
+    "status": {
+        "value": "Succeeded",
+        "localizedValue": "Succeeded"
+    },
+    "subStatus": {
+        "value": "",
+        "localizedValue": ""
+    },
+    "submissionTimestamp": "2022-09-09T09:41:45.1123577Z",
+    "subscriptionId": "5d470687-9ddc-4281-bed9-692c83e5df0e",
+    "tenantId": "c2793115-b0bd-4aac-ae16-95c3fdd95dc0",
+    "properties": {
+        "eventCategory": "Administrative",
+        "entity": "/subscriptions/5d470687-9ddc-4281-bed9-692c83e5df0e/resourcegroups/VM-SS/providers/Microsoft.Compute/virtualMachineScaleSets/vmss-demo",
+        "message": "Microsoft.Compute/virtualMachineScaleSets/write",
+        "hierarchy": "5d470687-9ddc-4281-bed9-692c83e5df0e"
+    },
+    "relatedEvents": []
+}
